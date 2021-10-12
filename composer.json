@@ -12,6 +12,12 @@
             "homepage": "http://kriswallsmith.net/"
         }
     ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/iGamesInc/assetic"
+        }
+    ],
     "require": {
         "php": ">=5.3.0",
         "symfony/asset": "~2.3|~3.0|~4.0",
@@ -21,7 +27,7 @@
         "symfony/http-kernel": "~2.3|~3.0|~4.0",
         "symfony/templating": "~2.3|~3.0|~4.0",
         "symfony/yaml": "~2.3|~3.0|~4.0",
-        "sanpi/assetic": "^1.6"
+        "sanpi/assetic": "main"
     },
     "require-dev": {
         "patchwork/jsqueeze": "~1.0",
